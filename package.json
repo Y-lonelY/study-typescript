@@ -1,0 +1,22 @@
+{
+  "name": "study-typescript",
+  "version": "1.0.0",
+  "description": "A track to record the learning TypeScript!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-lonelY/study-typescript.git"
+  },
+  "keywords": [
+    "[\"typescript\"]"
+  ],
+  "author": "Y-lonelY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y-lonelY/study-typescript/issues"
+  },
+  "homepage": "https://github.com/Y-lonelY/study-typescript#readme"
+}
