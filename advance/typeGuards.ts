@@ -18,6 +18,17 @@ if ("power" in man) {
   console.log(man.age)
 }
 
-// assertion
+// by assertion
 let man2 = man as SuperMan
+
+// user-defined function
+function isSuper(man: SuperMan | IronMan): man is SuperMan {
+  return (man as SuperMan).power !== undefined
+}
+
+if (isSuper(man)) {
+  console.log('man is superMan')
+} else {
+  console.log('man is ironMan')
+}
 
